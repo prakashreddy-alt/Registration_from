@@ -1,0 +1,326 @@
+<html>
+<head>
+  <style>
+    table,
+    th,
+    td {
+      padding: 15px;
+    }
+     
+
+    
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0, 255, 213, 0.596);
+    }
+    li{
+    float:left;
+  }
+ 
+
+    li a {
+      display: block;
+      color: rgb(7, 7, 7);
+      text-align: center;
+      padding: 2px 8px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: rgb(245, 245, 245);
+    }
+
+    .active {
+      background-color: #f4f8f8;
+    }
+
+    
+    div {
+      margin: 40px;
+      border: 1px solid #4e3069;
+    }
+    h1{
+      text-align: center;
+    }
+
+    .reddy {
+      column-count: 2;
+    }
+    
+
+legend {
+  background-color:mediumseagreen;
+  color: rgb(0, 0, 0);
+  padding: 7px;
+}
+
+input {
+  margin: 3px;
+}
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <centre>
+      <h1> COLLEGE ADMISSION FORM</h1>
+    </centre>
+
+    <li><a href="#home">Home</a></li>
+    <li><a href="#Branch">Branch</a></li>
+    <li><a href="#Contact">Contact us</a></li>
+    <li style=float:right><a class="active" href="#about">About</a></li>
+  </ul>
+
+
+  </style>
+
+
+  </head>
+  <fieldset>
+
+
+    <div class="reddy">
+    
+
+      <body bgcolor="BEIGE">
+        <table style="border-collapse: collapse;border: 0px ;">
+
+          <tr>
+            <td style="border: none;">
+              <label style="color :Tomato;"> Firstname:</label>
+            </td>
+            <td style="border: none; ">
+              <input type="text" name="firstname" placeholder="firstname" />
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="border: none;">
+              <label style="color:darkred"> Middlename: </label>
+            </td>
+            <td style="border: none;">
+              <input type="text" name="middlename" placeholder="middlename" />
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="border:none;">
+              <label style="color:darkolivegreen;"> Lastname: </label>
+            </td>
+            <td style="border: none;">
+              <input type="text" name="lastname" placeholder="lastname" />
+            </td>
+          </tr>
+
+          <tr>
+            <td style="border: none;">
+              <label style="color: chocolate;"> Date of Birth:</label>
+            </td>
+            <td style="border: none;">
+              <input type="date" id="Date of Birth" name="Date of Birth"> 
+            </td>
+          <tr>
+            <tr>
+              <td style="border:none;">
+                <label style="color:darkmagenta;"> Upload image: </label>
+              </td>
+              <td style="border: none;">
+                <input type="file" />
+              </td>
+            </tr>
+
+          <tr>
+            <td style="border:none;">
+              <label style="color: hotpink;">Course: </label>
+            </td>  
+            
+            <td style="border:none;">
+              <select>
+                <option value="Course">Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="M.Tech">M.Tech</option>
+              </select>
+            </td>
+          </tr>
+         
+          <tr>
+            <td style="border:none;">
+              <label style="color: crimson;"> Gender : </label>
+            </td>
+            <td style="border:none;">
+             
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+             
+            </td>
+          </tr>
+          
+
+          <tr>
+            <td style="border: none;">
+              <label style="color :darkseagreen;"> Phone:</label>
+            </td>
+            <td style="border: none; ">
+              <input type="text" value="+91" disabled size="2"  />
+              <input type="text"  size="15"  />
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="border: none;">
+              <label style="color: crimson;">State:</label>
+            </td>
+            <td style="border: none;">
+              <select name="state" id="state" class="form-control">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                <option value="Daman and Diu">Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+              </select>
+          
+
+            </td>
+         
+            
+
+           
+            
+              
+    
+              <tr>
+                <td style="border: none;">
+                  <label style="color: deeppink;">City:</label>
+                </td>
+                <td style="border: none;">
+                  <input type="text" name="City" placeholder="city">
+                </td>
+              </tr>
+
+
+
+          </tr>
+          <tr>
+            <td style="border: none;">
+              <label style="color: darkmagenta;">Pin code:</label>
+            </td>
+            <td style="border: none;">
+            <input type="text" name="Pin code:" placeholder="Pin code" />
+            </td>
+          </tr>
+           
+        </tr>
+        
+         
+         
+            
+          <tr>
+            <td style="border: none;">
+            <label style="color: navy;"> Postal Address:</label>
+            </td>
+            <td style="border: none;">
+          <input type="text" name="Address" maxlength="50" placeholder="Address1">
+        </td>
+        </tr>
+ 
+            </td>
+            <td style="border: none;">
+              <label style="color:brown;">Personal Address:</label>
+            </td>
+            <td style="border: none;">
+          <input type="text"  maxlength="50" placeholder="Address2">
+        </td>
+        </tr>
+
+      </td>
+      
+        
+
+    </td>
+    
+    <table style="border-collapse: collapse;border: 0px ;">
+      <form action="http://localhost:3000/form1">
+      <fieldset style="margin-right: 90px;">
+        
+        <legend>Education:</legend>
+        <label style="color:blue;">Secondary Education:</label>
+        <input type="text"  maxlength="50" placeholder="Institute Name">
+        <input type="text"  value="60%" size="2">
+      <br><br>
+        <label style="color: darkslategrey;">Higher Education:</label>
+        <input type="text" style="margin-left: 25px;" maxlength="50" placeholder="Institute Name">
+        <input type="text"  value="60%" size="2">
+     
+      </fieldset>
+    </form>
+     
+
+
+  
+    <input type="submit"  value="Submit"style="margin-top:30px; margin-bottom:20px;" >
+    <input type="reset" value="Reset" id="reddy">
+
+
+        </table>
+      
+        
+       
+       
+    </div>
+
+
+  </fieldset>
+
+  </td>
+  </table>
+  
+</body>
+
+</html>
